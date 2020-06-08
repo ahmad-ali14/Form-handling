@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">Forms Vanilla</h1>
+      </div>
+      <form action="" method="" id="myForm">
+        <div class="row form-group">
+          <label for="firstName" class="col-12 col-md-2">
+            First Name:
+          </label>
+          <input
+            id="firstName"
+            name="firstName"
+            class="form-conrol col-12 col-md-8"
+          />
+        </div>
+        <div class="row form-group">
+          <label for="lastName" class="col-12 col-md-2">
+            last Name:
+          </label>
+          <input
+            id="lastName"
+            name="lastName"
+            class="form-conrol col-12 col-md-8"
+          />
+        </div>
+        <div class="row form-group">
+          <button class="btn btn-primary" type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+
+      <div id="showBox" class="jubmotrron myClass"></div>
+
+      <style>
+        .myClass {
+          text-align: center;
+          border: 2px dotted darkcyan;
+          border-radius: 15% 15%;
+          height: 100px;
+        }
+
+        .myNameClass {
+          color: brown;
+        }
+      </style>
+      <script>
+        window.onload = () => {
+          let form_el = document.getElementById("myForm");
+          form_el.addEventListener("submit", function (evt) {
+            evt.preventDefault();
+            let firstName = document.getElementById("firstName").value;
+            let lastName = document.getElementById("lastName").value;
+            let myName = document.createElement("h1");
+            myName.innerText = firstName + " " + lastName;
+            myName.classList.add("myNameClass");
+            myName.classList.add("p-4");
+            document.getElementById("showBox").appendChild(myName);
+          });
+        };
+      </script>
+    </div>
+  </body>
+</html>
