@@ -1,12 +1,20 @@
-# Form-handling
+# Handle Forms in Vanilla.js and React
+Front-End only
 
-![hanlde forms](https://i.imgur.com/RtOzWrT.png)
 
 ## Contents
-![contents](https://i.imgur.com/OWJWXxa.png)
+WE are going to discuss:
+1. Forms in Vanilla
+2. Forms with React Hooks
+3. Forms With React Class Components
+
 
 ## Requirments
-![requirments](https://i.imgur.com/WkTutD1.png)
+You need to have basic knowledge in this topics to follow along:
+1. Basics of vanills  JavaScript.
+2. Basics of Bootsrtap.
+3. Basics of React.
+4. Basics of Javascript Classes
 
 ## This repo contains 3 files 
  1. `vanillaForms.html` : handling forms in js.
