@@ -8,8 +8,11 @@ WE are going to discuss:
 2. Forms with React Hooks
 3. Forms With React Class Components
 
+## watch a vedio:
+[![](https://youtu.be/4_pd7SAfWnM)](https://youtu.be/4_pd7SAfWnM) 
 
-## Requirments
+
+## 
 You need to have basic knowledge in this topics to follow along:
 1. Basics of vanills  JavaScript.
 2. Basics of Bootsrtap.
