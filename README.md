@@ -9,8 +9,7 @@ WE are going to discuss:
 3. Forms With React Class Components
 
 ## watch a vedio:
-[![](https://youtu.be/4_pd7SAfWnM)](https://youtu.be/4_pd7SAfWnM) 
-
+[![watch a vedio ](http://img.youtube.com/vi/4_pd7SAfWnM/0.jpg)](http://www.youtube.com/watch?v=4_pd7SAfWnM "watch a video") 
 
 ## 
 You need to have basic knowledge in this topics to follow along:
